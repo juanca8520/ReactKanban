@@ -31,3 +31,27 @@
     transform: rotate(360deg);
   }
 }
+
+.title{
+  text-align: center
+}
+
+.taskBoard {
+  border-style: groove;
+  border-width: 2px;
+  border-radius: 15px;
+}
+
+.taskTitle {
+  text-align: left;
+}
+
+.task {
+  border-style: groove;
+  border-radius: 15px;
+}
+
+.taskB {
+  text-align: right;
+  padding-right: 5%;
+}
