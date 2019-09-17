@@ -160,7 +160,7 @@ function Tweet(props) {
       </Row>
       <Row>
         <Col>
-          <div className = "TweetButtons">
+          <div className="TweetButtons">
             <Button variant="primary">Favs</Button> {props.element.favs}
             <Button variant="primary">Retweets</Button> {props.element.retweets}
           </div>
@@ -174,7 +174,25 @@ function Tweet(props) {
 class ColDer extends React.Component {
   constructor(props) {
     super(props);
+  }
 
+  render() {
+    return (
+      <div>
+        <Row>
+          <Search />
+        </Row>
+        <Row>
+
+        </Row>
+        <Row>
+
+        </Row>
+        <Row>
+
+        </Row>
+      </div>
+    )
   }
 }
 
