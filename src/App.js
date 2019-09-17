@@ -170,6 +170,14 @@ function Tweet(props) {
   )
 }
 
+function Search() {
+  return (
+    <div>
+      search
+    </div>
+  )
+}
+
 
 class ColDer extends React.Component {
   constructor(props) {
