@@ -32,26 +32,19 @@
   }
 }
 
-.title{
-  text-align: center
-}
-
-.taskBoard {
-  border-style: groove;
-  border-width: 2px;
-  border-radius: 15px;
-}
-
-.taskTitle {
+.menuText {
   text-align: left;
 }
 
-.task {
+.tweet {
   border-style: groove;
-  border-radius: 15px;
 }
 
-.taskB {
-  text-align: right;
-  padding-right: 5%;
+.tweetName {
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.TweetButtons {
+  text-align: center;
 }
