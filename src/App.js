@@ -61,6 +61,18 @@ class Menu extends React.Component {
 function MenuElement(props) {
   return (
     <div className="menuText">
+      <Row>
+        <Col>
+          <Media>
+            <Media object data-src={props.element.image} alt="Generic placeholder image" />
+          </Media>
+        </Col>
+        <Col>
+          {props.element.text}
+        </Col>
+      </Row>
+
+
       {props.element.text}
     </div>
   )
@@ -173,7 +185,7 @@ function Tweet(props) {
 function Search() {
   return (
     <div>
-      search
+      <input placeholder="Buscar en Twitter" />
     </div>
   )
 }
